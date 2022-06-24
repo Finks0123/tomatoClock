@@ -2,7 +2,6 @@
 
 :tomato: 一个让你专注工作的番茄闹钟，
 
-
 ## 项目说明
 
 该项目融合RunCat项目和自制番茄闹钟，使用wxPython开发。
@@ -11,8 +10,6 @@
 
 直接运行main.py即可
 
-
-
 ## 打包说明
 
 本项目使用pyinstller打包，需要解决连个问题：
@@ -20,11 +17,9 @@
 1. 打包程序过大
 2. 如何加入外部资源进行打包
 
-
-
 ### 1、如何解决pyinstaller程序打包后过大的问题：
 
-> 参考 [使用pipenv建立虚拟环境解决python打包exe文件过大的问题（附打包带图标，多个py文件打包exe）]( https://blog.csdn.net/KOBEYU652453/article/details/108710837)
+> 参考 [使用pipenv建立虚拟环境解决python打包exe文件过大的问题（附打包带图标，多个py文件打包exe）](https://blog.csdn.net/KOBEYU652453/article/details/108710837)
 
 解决流程如下：
 
@@ -111,6 +106,4 @@ a = Analysis(
 pyinstaller main.spec
 ```
 
-
-
-以上就妥了，重新生成的ext就包含资源文件了。
+以上就妥了，重新生成的exe就包含资源文件了。
