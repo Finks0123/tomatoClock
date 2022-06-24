@@ -19,7 +19,7 @@
 
 ### 1、如何解决pyinstaller程序打包后过大的问题：
 
-> 参考 [使用pipenv建立虚拟环境解决python打包exe文件过大的问题（附打包带图标，多个py文件打包exe）](https://blog.csdn.net/KOBEYU652453/article/details/108710837)
+> 参考 [博客](https://blog.csdn.net/KOBEYU652453/article/details/108710837)
 
 解决流程如下：
 
